@@ -53,10 +53,16 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:bernardosousa@ua.pt
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=HTTUJn8AAAAJ&hl=pt-PT
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/bernardotdesousa/
         - name: GitHub
           url: https://github.com/bernardotdsousa
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=HTTUJn8AAAAJ&hl=pt-PT
+        - name: ResearchGate
+          url: https://www.researchgate.net/profile/Bernardo-De-Sousa
+        - name: ORCID
+          url: https://orcid.org/0009-0003-2838-275X
 
     assets:
         disableScrollBarStyle: true
@@ -64,7 +70,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Bernardo Sousa"
       icon: favicon.ico
       iconHeight: 18
 
