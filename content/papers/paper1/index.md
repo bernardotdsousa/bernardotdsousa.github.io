@@ -8,8 +8,6 @@ description: "This paper reviews Advanced Micro Devices (AMD) - a company that w
 
 ---
 
-##### Download
-
 + [Paper](paper1.pdf)
 
 ---
