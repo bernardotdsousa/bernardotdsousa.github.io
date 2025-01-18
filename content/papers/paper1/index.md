@@ -11,7 +11,6 @@ description: "This paper reviews Advanced Micro Devices (AMD) - a company that w
 ##### Download
 
 + [Paper](paper1.pdf)
-+ [Publication link]((https://ieeexplore.ieee.org/abstract/document/9476337))
 
 ---
 
