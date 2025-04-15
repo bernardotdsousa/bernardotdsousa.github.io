@@ -63,7 +63,7 @@ education:
     institution: University of Aveiro
     date_start: 2020
     date_end: 2022
-    summary: |
+    summary:
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
