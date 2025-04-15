@@ -1,17 +1,15 @@
 ---
 # Display name
-title: 吳健雄
+title: Bernardo Sousa
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Bernardo
+last_name: Sousa
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 👋
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,83 +18,79 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Aveiro
+    url: https://www.ua.pt/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:bernardosousa@ua.pt'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/btsousa.bsky.social
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/bernardotsousa/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/bernardotdsousa
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/bernardotdesousa/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?hl=pt-PT&user=HTTUJn8AAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0003-2838-275X
 
 interests:
+  - Business & Economics
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Innovation & Strategy
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Business & Economics
+    institution: University of Aveiro
+    date_start: 2024
+    date_end: 2027
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _AI Applications in Procurement & Supply Chain Management_. Supervised by [Prof Manuel Au-Yong Oliveira](https://www.linkedin.com/in/manueloliv/).
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Masters in Management
+    institution: University of Aveiro
+    date_start: 2020
+    date_end: 2022
     summary: |
-      GPA: 3.8/4.0
-
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelors in Languages and Business
+    institution: University of Aveiro
+    date_start: 2017
+    date_end: 2020
     summary: |
-      GPA: 3.4/4.0
-      
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Project Procurement Assistant
+    company_name: LIXIL
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024
     date_end: ''
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+  - position: Project Management Intern
+    company_name: Bosch
     company_url: ''
     company_logo: ''
     date_start: 2016-01-01
@@ -183,4 +177,5 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+PhD student in Business and Economics at the University of Aveiro, Portugal, researching the integration of artificial intelligence in procurement and supply chain processes to drive efficiency and innovation.PhD student in Business and Economics at the University of Aveiro, Portugal, researching the integration of artificial intelligence in procurement and supply chain processes to drive efficiency and innovation.
+
