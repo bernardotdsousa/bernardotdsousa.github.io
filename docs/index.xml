@@ -6,6 +6,21 @@
     <description>Recent content on Bernardo Sousa</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Forecasting in Procurement: First Notes</title>
+      <link>http://localhost:1313/archive/ai-forecasting/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/ai-forecasting/</guid>
+      <description>A short essay outlining the foundations of forecasting tools in AI-powered procurement environments.</description>
+    </item>
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>You can download my full academic CV below:&#xA;📄 bernardo-cv.pdf&#xA;Highlights 🎓 PhD Candidate in Business and Economics, University of Aveiro 🧠 Research: AI in Procurement Systems 🛠️ Tools: Python, Power BI, SAP, GitHub 🌍 Languages: Portuguese, English, German, Chinese, Spanish, French </description>
+    </item>
   </channel>
 </rss>

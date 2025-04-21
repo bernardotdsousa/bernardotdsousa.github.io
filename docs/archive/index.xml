@@ -6,6 +6,56 @@
     <description>Recent content in Archive on Bernardo Sousa</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/archive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI in Inventory Management</title>
+      <link>http://localhost:1313/archive/ai-inventory-management/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/ai-inventory-management/</guid>
+      <description>Exploring how AI can streamline inventory control and reduce stock-related inefficiencies.</description>
+    </item>
+    <item>
+      <title>How I Created This Website with ChatGPT</title>
+      <link>http://localhost:1313/archive/how-i-created-this-website-with-chatgpt/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/how-i-created-this-website-with-chatgpt/</guid>
+      <description>An in-depth walkthrough of how I designed and built this high-end academic portfolio site with the help of ChatGPT.</description>
+    </item>
+    <item>
+      <title>Chatbots in Procurement Workflows</title>
+      <link>http://localhost:1313/archive/chatbots-in-procurement/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/chatbots-in-procurement/</guid>
+      <description>A study on conversational AI improving supplier engagement and internal requests.</description>
+    </item>
+    <item>
+      <title>Predictive Models in Supply Chain Risk</title>
+      <link>http://localhost:1313/archive/supply-chain-predictive-models/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/supply-chain-predictive-models/</guid>
+      <description>A technical view on predictive analytics for anticipating supply chain disruptions.</description>
+    </item>
+    <item>
+      <title>AI Opportunities in ESG Reporting</title>
+      <link>http://localhost:1313/archive/esg-ai-opportunities/</link>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/esg-ai-opportunities/</guid>
+      <description>A practical guide to using AI for sustainability metrics tracking in procurement.</description>
+    </item>
+    <item>
+      <title>The Future of AI-Powered Procurement</title>
+      <link>http://localhost:1313/archive/future-of-procurement/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/future-of-procurement/</guid>
+      <description>Forward-looking reflections on the next generation of intelligent procurement tools.</description>
+    </item>
+    <item>
+      <title>AI Forecasting in Procurement: First Notes</title>
+      <link>http://localhost:1313/archive/ai-forecasting/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/ai-forecasting/</guid>
+      <description>A short essay outlining the foundations of forecasting tools in AI-powered procurement environments.</description>
+    </item>
   </channel>
 </rss>

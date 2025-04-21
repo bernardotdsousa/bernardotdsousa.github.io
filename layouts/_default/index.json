@@ -1,0 +1,11 @@
+[
+{{- $pages := where site.RegularPages "Section" "in" (slice "archive" "publications") -}}
+{{- range $i, $page := $pages -}}
+  {{- if gt $i 0 }},{{ end }}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "summary": {{ $page.Summary | plainify | jsonify }},
+    "permalink": {{ $page.RelPermalink | jsonify }}
+  }
+{{- end -}}
+]

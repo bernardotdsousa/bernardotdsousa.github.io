@@ -1,6 +1,8 @@
 ---
 title: "Archive"
+type: "archive"
 ---
+
 
 This is a collection of archived work, side projects, playlists, and notes.
 

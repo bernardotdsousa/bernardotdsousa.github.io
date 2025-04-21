@@ -1,7 +1,17 @@
-<header style="padding: 2rem 0 1rem; text-align: center;">
-  <nav>
-    <a href="/" style="margin: 0 1rem;">Home</a>
-    <a href="/publications/" style="margin: 0 1rem;">Publications</a>
-    <a href="/archive/" style="margin: 0 1rem;">Archive</a>
+<header class="wrapper" style="display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 0;">
+  <nav style="display: flex; gap: 1.5rem; align-items: center;">
+    <a href="/">Home</a>
+    <a href="/publications/">Publications</a>
+    <a href="/archive/">Archive</a>
   </nav>
+{{ if eq .RelPermalink "/archive/" }}
+  <div style="display: flex; align-items: center; gap: 1rem;">
+    <span id="dark-icon" class="toggle-icon" style="cursor: pointer;">⚫</span>
+  </div>
+{{ else }}
+  <div style="display: flex; align-items: center;">
+    <span id="dark-icon" class="toggle-icon" style="cursor: pointer;">⚫</span>
+  </div>
+{{ end }}
+
 </header>

@@ -1,19 +1,7 @@
 {{ define "main" }}
-  <main class="wrapper">
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Content }}</p>
-
-    <h2>About</h2>
-    <p>I’m Bernardo Sousa, a PhD candidate in Business and Economics. This is my minimalist academic portfolio.</p>
-
-    <h2>Now</h2>
-    <p>Currently researching AI in procurement systems at LIXIL/Grohe.</p>
-
-    <h2>Connect</h2>
-    <p>
-      <a href="mailto:bernardo.sousa@ua.pt">Email</a> ·
-      <a href="#">Google Scholar</a> ·
-      <a href="#">ORCID</a>
-    </p>
-  </main>
+<main class="wrapper" style="text-align: center;">
+  <img src="/files/portrait.jpg" alt="Portrait of Bernardo" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Content }}</p>
+</main>
 {{ end }}

@@ -1,0 +1,36 @@
+[
+  {
+    "title": "AI in Inventory Management",
+    "summary": "Exploring how AI can streamline inventory control and reduce stock-related inefficiencies.",
+    "permalink": "/archive/ai-inventory-management/"
+  },
+  {
+    "title": "How I Created This Website with ChatGPT",
+    "summary": "An in-depth walkthrough of how I designed and built this high-end academic portfolio site with the help of ChatGPT.",
+    "permalink": "/archive/how-i-created-this-website-with-chatgpt/"
+  },
+  {
+    "title": "Chatbots in Procurement Workflows",
+    "summary": "A study on conversational AI improving supplier engagement and internal requests.",
+    "permalink": "/archive/chatbots-in-procurement/"
+  },
+  {
+    "title": "Predictive Models in Supply Chain Risk",
+    "summary": "A technical view on predictive analytics for anticipating supply chain disruptions.",
+    "permalink": "/archive/supply-chain-predictive-models/"
+  },
+  {
+    "title": "AI Opportunities in ESG Reporting",
+    "summary": "A practical guide to using AI for sustainability metrics tracking in procurement.",
+    "permalink": "/archive/esg-ai-opportunities/"
+  },
+  {
+    "title": "The Future of AI-Powered Procurement",
+    "summary": "Forward-looking reflections on the next generation of intelligent procurement tools.",
+    "permalink": "/archive/future-of-procurement/"
+  },
+  {
+    "title": "AI Forecasting in Procurement: First Notes",
+    "summary": "A short essay outlining the foundations of forecasting tools in AI-powered procurement environments.",
+    "permalink": "/archive/ai-forecasting/"
+  }]

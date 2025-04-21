@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main class="wrapper" style="padding-top: 3rem;">
+  <h1>Archive</h1>
+
+  <input type="text" id="search-input" placeholder="Search archive..." class="search-bar" style="margin: 1rem 0; padding: 0.5rem 1rem; font-size: 1rem; width: 100%; max-width: 600px; border-radius: 6px; border: 1px solid #ccc;">
+
+  <div id="archive-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <div class="archive-item" style="margin-bottom: 2rem;">
+      <a href="{{ .RelPermalink }}" style="font-weight: 600; font-size: 1.2rem; color: var(--link); text-decoration: none;">
+        {{ .Title }}
+      </a>
+      <p style="margin-top: 0.5rem; color: var(--text); font-size: 1rem;">
+        {{ .Summary }}
+      </p>
+    </div>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

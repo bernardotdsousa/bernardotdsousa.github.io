@@ -2,11 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/archive/ai-inventory-management/</loc>
+    <lastmod>2025-04-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/archive/</loc>
+    <lastmod>2025-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archive/how-i-created-this-website-with-chatgpt/</loc>
+    <lastmod>2025-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archive/chatbots-in-procurement/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archive/supply-chain-predictive-models/</loc>
+    <lastmod>2025-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archive/esg-ai-opportunities/</loc>
+    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archive/future-of-procurement/</loc>
+    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archive/ai-forecasting/</loc>
+    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cv/</loc>
   </url><url>
     <loc>http://localhost:1313/publications/</loc>
   </url><url>

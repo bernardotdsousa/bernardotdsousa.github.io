@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="wrapper">
+  <h1>Publications</h1>
+
+  {{ range sort site.Data.publications "year" "desc" }}
+    <div class="paper-entry">
+      <div class="paper-title">{{ .title }}</div>
+      <div class="paper-meta">{{ .authors }} <em>{{ .venue }}</em></div>
+      <div class="paper-links">
+        {{ with .doi }}<a href="{{ . }}" target="_blank">🔗 DOI</a>{{ end }}
+        {{ with .pdf }} · <a href="{{ . }}" target="_blank">📄 PDF</a>{{ end }}
+        {{ with .code }} · <a href="{{ . }}" target="_blank">💻 Code</a>{{ end }}
+      </div>
+    </div>
+  {{ end }}
+</main>
+{{ end }}

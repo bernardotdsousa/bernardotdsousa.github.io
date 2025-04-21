@@ -1,36 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Archive | Bernardo Sousa</title>
+<script>
+  (function () {
+    const stored = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = stored || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/fadein.js" defer></script>
+<script src="/js/fuse.min.js" defer></script>
+<script src="/js/search.js" defer></script>
+
   </head>
   <body>
-    <header style="padding: 2rem 0 1rem; text-align: center;">
-  <nav>
-    <a href="/" style="margin: 0 1rem;">Home</a>
-    <a href="/publications/" style="margin: 0 1rem;">Publications</a>
-    <a href="/archive/" style="margin: 0 1rem;">Archive</a>
+    <header class="wrapper" style="display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 0;">
+  <nav style="display: flex; gap: 1.5rem; align-items: center;">
+    <a href="/">Home</a>
+    <a href="/publications/">Publications</a>
+    <a href="/archive/">Archive</a>
   </nav>
+
+  <div style="display: flex; align-items: center; gap: 1rem;">
+    <span id="dark-icon" class="toggle-icon" style="cursor: pointer;">⚫</span>
+  </div>
+
+
 </header>
 
     
-  <main class="wrapper">
-    <h1>Archive</h1>
-    <p>This is a collection of archived work, side projects, playlists, and notes.</p>
-<ul>
-<li>📁 <a href="#">My Energy Usage Dataset Project</a></li>
-<li>🎵 <a href="#">My monthly playlists</a></li>
-<li>✍️ <a href="#">A short write-up on AI ethics in procurement</a></li>
-</ul>
+<main class="wrapper" style="padding-top: 3rem;">
+  <h1>Archive</h1>
 
-  </main>
+  <input type="text" id="search-input" placeholder="Search archive..." class="search-bar" style="margin: 1rem 0; padding: 0.5rem 1rem; font-size: 1rem; width: 100%; max-width: 600px; border-radius: 6px; border: 1px solid #ccc;">
 
-    <footer style="text-align: center; padding: 3rem 1rem; font-size: 0.85rem; color: #666;">
-  © 2025 Bernardo Sousa
+  <div id="archive-list">
+    
+    <div class="archive-item" style="margin-bottom: 2rem;">
+      <a href="/archive/how-i-created-this-website-with-chatgpt/" style="font-weight: 600; font-size: 1.2rem; color: var(--link); text-decoration: none;">
+        How I Created This Website with ChatGPT
+      </a>
+      <p style="margin-top: 0.5rem; color: var(--text); font-size: 1rem;">
+        An in-depth walkthrough of how I designed and built this high-end academic portfolio site with the help of ChatGPT.
+      </p>
+    </div>
+    
+    <div class="archive-item" style="margin-bottom: 2rem;">
+      <a href="/archive/ai-inventory-management/" style="font-weight: 600; font-size: 1.2rem; color: var(--link); text-decoration: none;">
+        AI in Inventory Management
+      </a>
+      <p style="margin-top: 0.5rem; color: var(--text); font-size: 1rem;">
+        Exploring how AI can streamline inventory control and reduce stock-related inefficiencies.
+      </p>
+    </div>
+    
+    <div class="archive-item" style="margin-bottom: 2rem;">
+      <a href="/archive/chatbots-in-procurement/" style="font-weight: 600; font-size: 1.2rem; color: var(--link); text-decoration: none;">
+        Chatbots in Procurement Workflows
+      </a>
+      <p style="margin-top: 0.5rem; color: var(--text); font-size: 1rem;">
+        A study on conversational AI improving supplier engagement and internal requests.
+      </p>
+    </div>
+    
+    <div class="archive-item" style="margin-bottom: 2rem;">
+      <a href="/archive/supply-chain-predictive-models/" style="font-weight: 600; font-size: 1.2rem; color: var(--link); text-decoration: none;">
+        Predictive Models in Supply Chain Risk
+      </a>
+      <p style="margin-top: 0.5rem; color: var(--text); font-size: 1rem;">
+        A technical view on predictive analytics for anticipating supply chain disruptions.
+      </p>
+    </div>
+    
+    <div class="archive-item" style="margin-bottom: 2rem;">
+      <a href="/archive/esg-ai-opportunities/" style="font-weight: 600; font-size: 1.2rem; color: var(--link); text-decoration: none;">
+        AI Opportunities in ESG Reporting
+      </a>
+      <p style="margin-top: 0.5rem; color: var(--text); font-size: 1rem;">
+        A practical guide to using AI for sustainability metrics tracking in procurement.
+      </p>
+    </div>
+    
+    <div class="archive-item" style="margin-bottom: 2rem;">
+      <a href="/archive/future-of-procurement/" style="font-weight: 600; font-size: 1.2rem; color: var(--link); text-decoration: none;">
+        The Future of AI-Powered Procurement
+      </a>
+      <p style="margin-top: 0.5rem; color: var(--text); font-size: 1rem;">
+        Forward-looking reflections on the next generation of intelligent procurement tools.
+      </p>
+    </div>
+    
+    <div class="archive-item" style="margin-bottom: 2rem;">
+      <a href="/archive/ai-forecasting/" style="font-weight: 600; font-size: 1.2rem; color: var(--link); text-decoration: none;">
+        AI Forecasting in Procurement: First Notes
+      </a>
+      <p style="margin-top: 0.5rem; color: var(--text); font-size: 1rem;">
+        A short essay outlining the foundations of forecasting tools in AI-powered procurement environments.
+      </p>
+    </div>
+    
+  </div>
+</main>
+
+    <footer style="text-align: center; padding: 2.5rem 1rem; font-size: 0.85rem; color: var(--muted);">
+
+  <div style="display: flex; justify-content: center; gap: 1rem; align-items: center; margin-bottom: 1.5rem;">
+    <a href="/cv/" title="Curriculum Vitae">
+      📄
+    </a>
+    <a href="https://scholar.google.com/citations?user=HTTUJn8AAAAJ&hl=pt-PT" target="_blank" title="Google Scholar">
+      <img src="/icons/google-scholar.svg" alt="Google Scholar" style="height: 20px;">
+    </a>
+    <a href="https://orcid.org/my-orcid?orcid=0009-0003-2838-275X" target="_blank" title="ORCID">
+      <img src="/icons/orcid.svg" alt="ORCID" style="height: 20px;">
+    </a>
+    <a href="https://www.researchgate.net/profile/Bernardo-De-Sousa?ev=hdr_xprf" target="_blank" title="ResearchGate">
+      <img src="/icons/researchgate.svg" alt="ResearchGate" style="height: 20px;">
+    </a>
+    <a href="https://github.com/bernardotdsousa" target="_blank" title="GitHub">
+      <img src="/icons/github.svg" alt="GitHub" style="height: 20px;">
+    </a>
+    <a href="https://www.linkedin.com/in/bernardotdesousa/" target="_blank" title="LinkedIn">
+      <img src="/icons/linkedin.svg" alt="LinkedIn" style="height: 20px;">
+    </a>
+    <a href="mailto:bernardosousa@ua.pt" title="Email">✉️</a>
+  </div>
+
+  <div style="margin-top: 2rem; font-size: 0.75rem;">
+    © 2025 Bernardo Sousa. All rights reserved.
+  </div>
 </footer>
 
+    <script src="/js/darkmode.js"></script>
   </body>
 </html>

@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+type: "publications"
 ---
 
 ### Peer-Reviewed Articles

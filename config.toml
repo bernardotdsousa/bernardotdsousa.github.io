@@ -2,5 +2,6 @@ baseURL = "https://bernardotdsousa.github.io/"
 languageCode = "en-us"
 title = "Bernardo Sousa"
 theme = "bernardo-clean"
-paginate = 10
 publishDir = "docs"
+[outputs]
+home = ["HTML", "JSON"]

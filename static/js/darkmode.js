@@ -1,22 +1,28 @@
-const toggle = document.getElementById('dark-toggle')
-const root = document.documentElement
-const userPref = localStorage.getItem('theme')
+function setTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme);
 
-function applyTheme(theme) {
-  root.setAttribute('data-theme', theme)
-  localStorage.setItem('theme', theme)
+  const icon = document.getElementById('dark-icon');
+  if (icon) {
+    icon.textContent = theme === 'dark' ? '⚪' : '⚫';
+  }
 }
 
-if (userPref) {
-  applyTheme(userPref)
-} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  applyTheme('dark')
-} else {
-  applyTheme('light')
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  setTheme(next);
 }
 
-toggle.addEventListener('click', () => {
-  const current = root.getAttribute('data-theme')
-  const next = current === 'dark' ? 'light' : 'dark'
-  applyTheme(next)
-})
+document.addEventListener('DOMContentLoaded', () => {
+  const saved = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = saved || (prefersDark ? 'dark' : 'light');
+  setTheme(theme);
+
+  const icon = document.getElementById('dark-icon');
+  if (icon) {
+    icon.style.cursor = 'pointer';
+    icon.addEventListener('click', toggleTheme);
+  }
+});
