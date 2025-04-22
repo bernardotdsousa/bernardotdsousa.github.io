@@ -10,7 +10,7 @@ type: "page"
   <h1 style="font-size: 2rem; font-weight: 700;">Bernardo Sousa</h1>
 
   <h2 style="margin-top: 2rem;">About me</h2>
-  <p>I’m Bernardo Sousa, a PhD candidate in Business & Economics researching AI applications in procurement at University of Aveiro. I am also working in Project Procurement at LIXIL.</p>
+  <p>I’m Bernardo Sousa, a PhD student in Business & Economics researching AI applications in procurement at University of Aveiro. I am also working in Project Procurement at LIXIL.</p>
 
   <h2 style="margin-top: 2rem;">Now</h2>
   <ul>
