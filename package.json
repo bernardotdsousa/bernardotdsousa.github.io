@@ -1,5 +1,4 @@
 {
-  "dependencies": {
-    "fuse.js": "^7.1.0"
-  }
+  "name": "bernardo-portfolio",
+  "version": "1.0.0"
 }

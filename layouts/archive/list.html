@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main class="wrapper">
+  <h1>Archive</h1>
+  {{ range (where .Pages.ByDate.Reverse "Section" "archive") }}
+    <div class="archive-entry" style="margin-bottom: 2rem;">
+      <h2 style="font-size: 1.25rem;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p style="margin: 0.5rem 0;">{{ .Summary }}</p>
+    </div>
+  {{ end }}
+</main>
+{{ end }}

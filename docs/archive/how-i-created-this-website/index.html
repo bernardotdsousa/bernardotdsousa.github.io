@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>How I Created This Website with ChatGPT | Bernardo Sousa</title>
+<script>
+  (function () {
+    const stored = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = stored || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/style.css" />
+    
+
+
+  </head>
+  <body>
+    <header class="wrapper" style="display: flex; align-items: center; justify-content: space-between; padding: 1.5rem 0;">
+  <nav style="display: flex; gap: 1.5rem; align-items: center;">
+    <a href="/">Home</a>
+    <a href="/publications/">Publications</a>
+    <a href="/archive/">Archive</a>
+  </nav>
+
+  <div style="display: flex; align-items: center;">
+    <span id="dark-icon" class="toggle-icon" style="cursor: pointer;">⚫</span>
+  </div>
+
+
+</header>
+
+    
+<main class="wrapper">
+  <h1>How I Created This Website with ChatGPT</h1>
+  <p class="post-meta">April 22, 2025</p>
+
+  <article class="post-content">
+    <p>This year, I built this academic portfolio site with the help of ChatGPT. I wanted something minimal, clean, and focused — just like the personal sites of researchers. Here&rsquo;s how I did it step by step.</p>
+<p>First, I decided to use Hugo, a fast and flexible static site generator. I chose a minimalist base theme and made edits to customize it to my personal academic brand.</p>
+<p>To get started, I set up my project using GitHub Desktop. This helped me manage the code and keep track of changes easily. I created a new repository named <code>bernardotdsousa.github.io</code>, which also serves as the GitHub Pages URL.</p>
+<p>The homepage features a short bio, a centered circular portrait, and links to research and contact information. I carefully tweaked the spacing to keep the layout compact but still readable.</p>
+<p>The &ldquo;Publications&rdquo; page includes my academic work. I manually edited the layout template in <code>layouts/publications/list.html</code>, adding entries in reverse chronological order. Each entry links to a PDF hosted in the <code>static/files/</code> folder and optionally to a DOI or repository page.</p>
+<p>The &ldquo;Archive&rdquo; section was added to document the site&rsquo;s development. It’s a place to reflect on technical steps, choices, and changes made over time.</p>
+<p>To enable dark/light mode, I included a small JavaScript snippet that stores the user&rsquo;s theme preference. This adds a modern touch to the minimalist interface.</p>
+<p>The whole site was written in HTML and Markdown, using Hugo partials and templates where needed. I preview changes locally using <code>hugo server</code>, then push updates to GitHub to publish them online.</p>
+<p>This site is now a central point for my academic identity, helping others quickly find my work, my CV, and how to contact me.</p>
+<h2 id="if-youre-building-something-similar-keep-it-simple-and-focus-on-clarity-let-the-content-speak-for-itself">If you&rsquo;re building something similar, keep it simple and focus on clarity. Let the content speak for itself.</h2>
+<h2 id="want-to-build-your-own">Want to Build Your Own?</h2>
+<p>If you’d like to build a minimalist academic website like this one, here’s a prompt you can use to get started with the help of ChatGPT or your favorite assistant:</p>
+<blockquote>
+<p><em>“I want to create a clean, minimalist academic website — with pages for publications, a CV, an archive, and dark/light mode. I want to use Hugo as the static site generator and host it for free on GitHub Pages. Please walk me through the setup step-by-step, including theme selection, folder structure, markdown content, and publishing workflow. I’d like to write everything in Markdown, keep the styling simple, and make the site easy to maintain.”</em></p>
+</blockquote>
+<p>You can also explore this article for a similar approach using GitHub Pages and Jekyll (no coding experience required):<br>
+<strong>Carl Bettosi</strong> – <em><a href="https://medium.com/@carlbettosi/create-a-personal-academic-website-easily-with-github-pages-and-jekyll-minimal-coding-f1115eeb5ab7">Create a personal academic website easily with GitHub Pages and Jekyll (minimal coding)</a></em></p>
+<p>Both Hugo and Jekyll are great options. The most important thing is that your site reflects your work — clearly and professionally.</p>
+<p>Start small. Write in Markdown. Focus on making your content accessible. You’ll be surprised how far you can go.</p>
+<hr>
+
+  </article>
+</main>
+
+    <footer style="text-align: center; padding: 2.5rem 1rem; font-size: 0.85rem; color: var(--muted);">
+  <div style="margin-bottom: 1.5rem; font-size: 0.9rem;">
+    <a href="/cv/">CV</a> ·
+    <a href="https://scholar.google.com/citations?user=HTTUJn8AAAAJ&hl=pt-PT" target="_blank">Google Scholar</a> ·
+    <a href="https://orcid.org/0009-0003-2838-275X" target="_blank">ORCID</a> ·
+    <a href="https://www.researchgate.net/profile/Bernardo-De-Sousa?ev=hdr_xprf" target="_blank">ResearchGate</a> ·
+    <a href="https://github.com/bernardotdsousa" target="_blank">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/bernardotdesousa/" target="_blank">LinkedIn</a> ·
+    <a href="mailto:bernardosousa@ua.pt">Email</a>
+  </div>
+
+  <div style="margin-top: 2rem; font-size: 0.75rem;">
+    © 2025 Bernardo Sousa. All rights reserved.
+  </div>
+</footer>
+
+    <script src="/js/darkmode.js"></script>
+  </body>
+</html>
